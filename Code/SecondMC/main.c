@@ -9,7 +9,7 @@ int main(void)
 	DcMotor_Init();
 	DcMotor_Rotate(stop);
 	ADC_ConfigType ADC;
-	ADC.prescaler=PS128;
+	ADC.prescaler=PS8;
 	ADC.ref_volt=INTERNAL;
 	ADC_init(&ADC);
 	uint8 temp=0,past_Temp=0;
