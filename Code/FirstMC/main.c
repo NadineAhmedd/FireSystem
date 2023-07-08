@@ -27,7 +27,6 @@ int main(void)
 			else if (temp==60)
 			{
 				LCD_clearScreen();
-				LCD_displayStringRowColumn(0,3,"FAN IS ON");
 				LCD_displayStringRowColumn(0,2,"7are2aaaaaaaa");
 				/*buzzer and LED*/
 				RUN();
